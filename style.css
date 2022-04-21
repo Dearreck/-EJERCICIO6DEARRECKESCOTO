@@ -53,6 +53,9 @@ table {
     /* Central */
     margin: auto;
 
+    /* Sin espacio entre los bordes */
+    border-spacing: 0;
+
     /* Unificar los bordes */
     border-collapse: collapse;
 
@@ -96,4 +99,7 @@ tbody tr:hover{
 tfoot{
     /* Borde inferior */
     border-bottom: 1px dashed #ff000d;
+
+    /* Justificar el texto */
+    text-align: justify;
 }
