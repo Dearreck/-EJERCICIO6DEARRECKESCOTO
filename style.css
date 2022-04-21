@@ -1,0 +1,90 @@
+/* Importar una fuente personalizada: Montserrat Alternates */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+
+/* Anular todos los estilos */
+* {
+    /* Establecer valores a 0 */
+    margin: 0;
+    padding: 0;
+
+    /* Incluir el valor del border y padding dentro del control */
+    box-sizing: border-box;
+}
+
+/* Modelo de alineación: FlexBox */
+header {
+    /* Ubicar los elementos: X = centro */
+    text-align: center;
+
+    /* Márgenes */
+    margin: 20px;
+
+    /* Relleno */
+    padding: 20px;
+
+    /* Medida: Alto */
+    height: 75px;
+
+    /* Fondo */
+    background: #d6afdc;
+
+    /* Sombra */
+    box-shadow: 0 0 5px gray;
+
+    /* Borde redondeado */
+    border-radius: 5px;
+}
+
+/* Fuente para el encabezado */
+header>h1 {
+    /* Establecer el estilo de fuente */
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2.3em;
+}
+
+/* Personalizar tabla */
+table {
+    /* Color de Fondo */
+    background-color: yellow;
+
+    /* Ancho */
+    width: 80%;
+
+    /* Central */
+    margin: auto;
+
+    /* Unificar los bordes */
+    border-collapse: collapse;
+
+    /* Borde */
+    border: dotted 1px #000;
+}
+
+td{
+        /* Borde */
+        border: dotted 1px #000;
+        /* Relleno */
+        padding: 5px 10px;
+}
+
+/* Personalizar el encabezado */
+table>thead {
+    /* Letras cursiva */
+    font-style: italic;
+
+    /* Texto: Mayúsculas */
+    text-transform: uppercase;
+
+    /* Color del texto */
+    color: #f00;
+}
+
+/* Primera letra del encabezado más grande */
+table>thead>tr>th::first-letter {
+    /* Establecer el tamaño */
+    font-size: 1.5em;
+}
+
+tfoot{
+    border-bottom: 1px dashed #ff000d;
+}
