@@ -60,7 +60,8 @@ table {
     border: dotted 1px #000;
 }
 
-td{
+td,
+th{
         /* Borde */
         border: dotted 1px #000;
         /* Relleno */
@@ -85,6 +86,14 @@ table>thead>tr>th::first-letter {
     font-size: 1.5em;
 }
 
+/* Resaltar la fila al pasar el mouse */
+tbody tr:hover{
+    /* Color del fondo */
+    background-color: rgb(160, 222, 225)!important;
+}
+
+/* Personalizar el Footer */
 tfoot{
+    /* Borde inferior */
     border-bottom: 1px dashed #ff000d;
 }
